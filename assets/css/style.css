@@ -24,6 +24,10 @@ header {
     background-color: lightblue;
 }
 
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Main content */
 main {
     background-color: lightgray;
