@@ -21,8 +21,13 @@ body {
 /* Header */
 header {
     height: 80px;
-    background-color: rgb(68, 74, 75);
+    background-color: #fafafa;
 
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
@@ -38,7 +43,30 @@ h1 {
     margin-left: 20px;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
 
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+}
 
 /* Main content */
 main {
