@@ -1,11 +1,11 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
 
-/* Asterisk wildcard selector to overriide default styles added by the browser */
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
-    box-sizing: none;
+    box-sizing: border-box;
 }
 
 /* General Styles */
@@ -13,19 +13,21 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
 
 /* Header */
 header {
-    height: 80px;
-    background-color: #fafafa;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
 }
 
 header a {
@@ -34,27 +36,22 @@ header a {
 }
 
 h1 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
 
-#logo {
-    float: left;
-    font-size: 250%;
-    margin-left: 20px;
-}
 
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
+    list-style-type: none;
 }
 
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
+
+#menu>li {
+    margin-bottom: 1em;
 }
 
 .active {
@@ -68,7 +65,9 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
+    top: 100%;
 }
 
 /* Nav toggle */
@@ -87,11 +86,51 @@ nav {
 /* Main content */
 main {
     background-color: lightgray;
-    /* Push the footer down taking surplus space */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
 footer {
     background-color: yellowgreen;
+}
+
+/* Media query: tablets and larger (768px and up*/
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    main {
+        margin-top: 79px;
+    }
+}
+
+/* laptops and desktops */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
