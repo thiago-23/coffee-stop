@@ -1,136 +1,134 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* General Styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #3a3a3a;
+  font-family: "Lato", sans-serif;
 }
 
 /* Header */
 header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+  background-color: #ffffff;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 header a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
 }
-
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 2px;
-    list-style-type: none;
+  font-size: 110%;
+  letter-spacing: 2px;
+  list-style-type: none;
 }
 
-
-#menu>li {
-    margin-bottom: 1em;
+#menu > li {
+  margin-bottom: 1em;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
+  top: 100%;
 }
 
 /* Nav toggle */
-#nav-toggle:checked~nav {
-    display: block;
+#nav-toggle:checked ~ nav {
+  display: block;
 }
 
 #nav-toggle {
-    display: none;
+  display: none;
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 /* Main content */
 main {
-    background-color: lightgray;
-    flex: 1 0 auto;
-    margin-top: 47px;
+  background-color: lightgray;
+  flex: 1 0 auto;
+  margin-top: 47px;
 }
 
 /* Footer */
 footer {
-    background-color: yellowgreen;
+  background-color: yellowgreen;
 }
 
 /* Media query: tablets and larger (768px and up*/
 @media screen and (min-width: 768px) {
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
+  nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+  }
 
-    #menu {
-        display: flex;
-    }
+  #menu {
+    display: flex;
+  }
 
-    #menu>li {
-        padding-left: 1rem;
-    }
+  #menu > li {
+    padding-left: 1rem;
+  }
 
-    .nav-toggle-label {
-        display: none;
-    }
+  .nav-toggle-label {
+    display: none;
+  }
 
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
+  #logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+  }
 
-    main {
-        margin-top: 79px;
-    }
+  main {
+    margin-top: 79px;
+  }
 }
 
 /* laptops and desktops */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
-    }
+  #menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+  }
 }
