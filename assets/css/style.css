@@ -31,7 +31,6 @@ header {
   position: fixed;
   z-index: 99;
   width: 100%;
-  box-shadow: 0 2px 2px #3a3a3a;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -119,6 +118,47 @@ main {
     top: 50px;
     border-radius: 15px;
     position: absolute;
+}
+
+/* Feedback  */
+.feedback {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.feed-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feed-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #f38b8b;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.feed-col > img {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.feed-col > p {
+    padding: 0;
+}
+
+.feed-col > h3 {
+    margin-top: 15px;
+    text-align: left;
 }
 
 /* Footer */
