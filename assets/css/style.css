@@ -17,6 +17,13 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #252525;
+}
+
 /* Header */
 header {
   background-color: #ffffff;
@@ -35,12 +42,6 @@ header a {
   color: inherit;
 }
 
-h1 {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #252525;
-}
 
 #menu {
   font-size: 110%;
@@ -93,10 +94,31 @@ main {
 }
 
 /* Hero image */
-.hero-image {
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
     height: 600px;
     width: 100%;
     background: url("../images/coffee.jpg") no-repeat center center /cover;
+}
+
+
+#cover-text {
+    font-size: 170%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 350px;
+    padding: 15px 10px;
+    background-color: rgb(167 179 208 / 80%);
+    right: 15px;
+    top: 50px;
+    border-radius: 15px;
+    position: absolute;
 }
 
 /* Footer */
@@ -149,7 +171,7 @@ main {
   main {
     margin-top: 79px;
   }
-  
+
 }
 
 /* laptops and desktops */
@@ -157,4 +179,12 @@ main {
   #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
   }
+}
+
+@media screen and (max-width: 635px) {
+    #cover-text {
+        width: 250px;
+        font-size: 120%;
+        text-align: center;
+    }
 }
