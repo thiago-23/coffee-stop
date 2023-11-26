@@ -88,9 +88,15 @@ nav {
 
 /* Main content */
 main {
-  background-color: lightgray;
   flex: 1 0 auto;
   margin-top: 47px;
+}
+
+/* Hero image */
+.hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/coffee.jpg") no-repeat center center /cover;
 }
 
 /* Footer */
@@ -143,6 +149,7 @@ main {
   main {
     margin-top: 79px;
   }
+  
 }
 
 /* laptops and desktops */
