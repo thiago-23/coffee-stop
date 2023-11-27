@@ -193,11 +193,13 @@ main {
 .gal-container .gal-box .gal-pic {
     display: flex;
     flex-direction: column;
+    width: 32.5%;
 }
 
 .gal-container .gal-box .gal-pic img {
     width: 100%;
     padding-bottom: 15px;
+    border-radius: 5px;
 }
 
 /* Footer */
