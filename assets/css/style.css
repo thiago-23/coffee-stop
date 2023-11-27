@@ -161,6 +161,29 @@ main {
     text-align: left;
 }
 
+/* Gallery */
+
+.gal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 20px 0 20px;
+}
+
+.gal-container .gal-heading {
+    width: 50%;
+    padding: 50px;
+}
+
+.gal-container .gal-heading h3 {
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #252525;
+    text-align: center;
+}
+
 /* Footer */
 .social-networks {
     text-align: center;
