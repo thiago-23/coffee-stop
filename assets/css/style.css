@@ -168,12 +168,13 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 40px 20px 0 20px;
 }
 
 .gal-container .gal-heading {
     width: 50%;
-    padding: 50px;
+    padding-bottom: 50px;
 }
 
 .gal-container .gal-heading h3 {
@@ -181,7 +182,22 @@ main {
     font-weight: bolder;
     padding-bottom: 10px;
     border-bottom: 3px solid #252525;
-    text-align: center;
+}
+
+.gal-container .gal-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gal-container .gal-box .gal-pic {
+    display: flex;
+    flex-direction: column;
+}
+
+.gal-container .gal-box .gal-pic img {
+    width: 100%;
+    padding-bottom: 15px;
 }
 
 /* Footer */
