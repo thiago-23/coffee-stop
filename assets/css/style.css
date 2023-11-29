@@ -19,7 +19,7 @@ body {
 
 h1, h2, h3 {
     font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 1.5px;
     color: #252525;
 }
@@ -128,7 +128,7 @@ main {
     text-align: center;
 }
 
-.feedback h1 {
+.feedback h2 {
     font-size: 36px;
     font-weight: 600;
 }
@@ -173,6 +173,16 @@ main {
     margin-top: 15px;
     text-align: left;
 }
+
+/* Menu page */
+
+.menu-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
 
 
 /* Gallery */
@@ -250,6 +260,8 @@ main {
         margin-left: 0px;
         margin-right: 15px;
     }
+
+    /* Gallery */
 
     .gal-container .gal-box {
         flex-direction: column;
