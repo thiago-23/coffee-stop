@@ -180,9 +180,71 @@ main {
     width: 80%;
     margin: auto;
     padding-top: 100px;
+    padding-bottom: 100px;
     text-align: center;
 }
 
+.menu-container h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.menu-container p {
+    color: #3a3a3a;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.menu-list {
+    width: 90%;
+    margin: auto;
+    flex-flow: column;
+    max-width: 70%;
+    background-color: #cec7c7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h2 {
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+
+.menu-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+
+.menu-item h2 {
+    color: #333;
+}
+
+
+.item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.price {
+    color: #888;
+}
+
+
+.allergens {
+    font-size: 12px;
+    color: #888;
+}
 
 
 /* Gallery */
