@@ -35,7 +35,50 @@
     </header>
 
     <!-- Main Content -->
-    <main>Main Content</main>
+    <main>
+        <section id="form-section">
+            <div>
+                <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+                    <h2><i class="fa-solid fa-comments"></i> What's on your mind?</h2>
+                    <!-- Inputs form -->
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name" class="text-input" placeholder="Enter your first name">
+                    <br>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name" class="text-input" placeholder="Enter your last name" required>
+                    <br>
+                    <label for="email_address">Email Address</label>
+                    <input type="email" name="email_address" id="email_address" class="text-input"
+                        placeholder="Enter your email address" required>
+                    <br>
+                    <!-- Buttons  -->
+                    <div class="radio-buttons">
+                        <div>
+                            <label for="road">Reservation</label>
+                            <input type="radio" name="contact_request" id="reservation" value="reservation" required checked>
+                        </div>
+                        <div>
+                            <label for="both">Cancelation</label>
+                            <input type="radio" name="contact_request" id="cancelation" value="cancelation" required>
+                        </div>
+                        <div>
+                            <label for="trail">Enquiry</label>
+                            <input type="radio" name="contact_request" id="enquiry" value="enquiry" required>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="subject">What can we help?</label>
+                        <textarea id="subject" placeholder="Write your query here" name="subject" cols="80" rows="5" required></textarea>
+                        <br>
+                    </div>
+                    <div>
+                        <button type="submit" class="join-button">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
 
     <!-- footer -->
     <footer>
