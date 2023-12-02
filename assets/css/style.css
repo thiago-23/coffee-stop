@@ -316,6 +316,14 @@ main {
     padding: 0 5px;
 }
 
+textarea#subject {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fafafa;
+    color: #fafafa;
+    border-radius: 2px;
+}
+
 
 /* Footer */
 .social-networks {
