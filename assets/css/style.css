@@ -310,7 +310,7 @@ main {
     background: transparent;
     color: #fafafa;
     width: 100%;
-    height: 25px;
+    height: 30px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
@@ -343,6 +343,51 @@ textarea#subject {
 ::placeholder {
     color: #ece2e2;
     font-size: 90%;
+}
+
+/*  Contact information and icons*/
+.contact-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(9, 9, 24, 0.73);
+    color: #fafafa;
+}
+.contact-us {
+    /* width: 80%; */
+    margin: auto;
+    display: inline;
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+    display: contents;
+    box-sizing: border-box;
+
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col .fa-solid, .fa-regular {
+    font-size: 28px;
+    color: rgb(170, 170, 142);
+    margin: 15px;
+    margin-right: 30px;
+}
+
+.contact-col div p {
+    padding: 0;
+}
+
+.contact-col h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 400;
 }
 
 /* Footer */
