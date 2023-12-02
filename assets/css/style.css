@@ -50,7 +50,8 @@ header a {
     list-style-type: none;
 }
 
-#menu a:hover, .active {
+#menu a:hover,
+.active {
     color: #d9cc14;
     border-bottom: 1px solid #d9cc14;
 }
@@ -59,7 +60,7 @@ header a {
     margin-bottom: 1em;
 }
 
-#menu > li:hover {
+#menu>li:hover {
     transition: 0.3s;
 }
 
@@ -324,6 +325,25 @@ textarea#subject {
     border-radius: 2px;
 }
 
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #d9cc14;
+    color: #ffffff;
+}
+
+::placeholder {
+    color: #ece2e2;
+    font-size: 90%;
+}
 
 /* Footer */
 .social-networks {
@@ -420,7 +440,7 @@ textarea#subject {
         margin: 0 0.5rem;
         color: #d9cc14;
     }
-    
+
 
     main {
         margin-top: 79px;
