@@ -284,6 +284,39 @@ main {
     border-radius: 5px;
 }
 
+/* Contcat Page */
+
+#form-section {
+    background: url("../images/pancake.jpg") no-repeat center center /cover;
+    background-color: #fafafa;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#contact-form {
+    color: #ffffff;
+    background-color: rgba(9, 9, 24, 0.73);
+    padding: 30px;
+}
+
+#form-section h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+
 /* Footer */
 .social-networks {
     text-align: center;
