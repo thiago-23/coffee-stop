@@ -425,6 +425,12 @@ span {
 
 /* Media query: Mobiles (max 700px )*/
 @media screen and (max-width: 700px) {
+    /* Logo */
+    #logo {
+        color: #d9cc14;
+    }
+    
+    /* home page */
     #cover-text {
         width: 250px;
         font-size: 120%;
