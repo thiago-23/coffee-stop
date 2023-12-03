@@ -153,6 +153,15 @@ main {
     border-radius: 10px;
 }
 
+.about-col p {
+    padding: 0;
+}
+
+.about-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
 
 /* Feedback  */
 .feedback {
@@ -469,6 +478,10 @@ span {
     }
 
     .feed-row {
+        flex-direction: column;
+    }
+
+    .about-row {
         flex-direction: column;
     }
 
