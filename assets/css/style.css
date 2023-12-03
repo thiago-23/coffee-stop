@@ -131,6 +131,29 @@ main {
    padding-top: 100px; 
 }
 
+#about-us h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.about-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.about-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
 /* Feedback  */
 .feedback {
     width: 80%;
