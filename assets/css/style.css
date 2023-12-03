@@ -87,6 +87,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: #fbfbfa;
 }
 
 /* Main content */
@@ -167,7 +168,8 @@ main {
 .feedback {
     width: 80%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -485,6 +487,10 @@ span {
         text-align: center;
     }
 
+    #about-us {
+        padding-top: 50px;
+    }
+
     .about-row {
         flex-direction: column;
     }
@@ -528,6 +534,10 @@ span {
     }
 
     /* Contact Page */
+    .radio-buttons {
+        display: contents;
+    }
+
     .contact-col div {
         display: inline;
         text-align: center;
