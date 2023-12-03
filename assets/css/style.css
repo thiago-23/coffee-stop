@@ -456,6 +456,29 @@ span {
     margin: auto;
 }
 
+/* Back to top button */
+.back-to-top-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #c7c062;
+    color: #fff;
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.back-to-top-button:hover {
+    background-color: #d9cc14;
+    transition: 0.3s;
+}
+
 /* Footer */
 .social-networks {
     text-align: center;
@@ -523,9 +546,18 @@ span {
     }
 
     /* Menu Page */
+    .menu-container h2 {
+        font-size: 35px;
+    }
+
+    .menu-container p {
+        text-align: left;
+    }
+
     .menu-list {
-        width: 91%;
+        width: 92%;
         margin: 11px;
+        margin-bottom: 20px;
     }
 
     .menu-item h3 {
@@ -636,6 +668,7 @@ span {
     /* Contact  */
     .contact-row {
        display: block;
+    }
 
     .contact-col div {
         display: flex;
