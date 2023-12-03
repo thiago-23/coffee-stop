@@ -411,16 +411,24 @@ textarea#subject {
 .contact-col div {
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    text-align: center;
 }
 
-.contact-col .fa-solid,
-.fa-regular {
+.contact-col .fa-solid  {
     font-size: 28px;
-    color: rgb(170, 170, 142);
+    color: #d9cc14;
     margin: 15px;
     margin-right: 30px;
 }
+
+.contact-col .fa-regular {
+    font-size: 28px;
+    color: #d9cc14;
+    margin: 15px;
+    margin-right: 30px;
+}
+
+
 
 .contact-col div p {
     padding: 0;
@@ -477,14 +485,13 @@ span {
         text-align: center;
     }
 
-    .feed-row {
-        flex-direction: column;
-    }
-
     .about-row {
         flex-direction: column;
     }
 
+    .feed-row {
+        flex-direction: column;
+    }
 
     .feed-col>img {
         margin-left: 0px;
@@ -519,6 +526,13 @@ span {
         text-align: center;
         padding-bottom: 20px;
     }
+
+    /* Contact Page */
+    /* .contact-col div {
+        display: flex;
+        text-align: center;
+        margin-bottom: 10px;
+    } */
 
 }
 
@@ -569,4 +583,20 @@ span {
     #menu a:hover {
         border-bottom: 1px solid #d9cc14;
     }
+
+    /* Contact  */
+    .contact-col div {
+        display: flex;
+        margin-bottom: 10px;
+        padding-left: 25px;
+    }
+}
+
+@media screen and (max-width: 1440px)  {
+    /* Contact  */
+    .contact-col div {
+        display: flex;
+        margin-bottom: 10px;
+        padding-left: 130px;
+        }
 }
