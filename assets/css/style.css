@@ -452,10 +452,6 @@ textarea#subject {
     width: 100%;
 }
 
-span {
-    margin: auto;
-}
-
 /* Back to top button */
 .back-to-top-button {
     display: flex;
