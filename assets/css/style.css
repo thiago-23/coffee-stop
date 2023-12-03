@@ -510,10 +510,15 @@ textarea#subject {
         padding-top: 50px;
     }
 
+    #about-us p {
+        text-align: left;
+        padding-bottom: 50px;
+    }
+
     .about-row {
         flex-direction: column;
     }
-
+    
     .feed-row {
         flex-direction: column;
     }
