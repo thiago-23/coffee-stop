@@ -123,6 +123,14 @@ main {
     position: absolute;
 }
 
+/* About us  */
+#about-us {
+   width: 80%;
+   margin: auto;
+   text-align: center;
+   padding-top: 100px; 
+}
+
 /* Feedback  */
 .feedback {
     width: 80%;
