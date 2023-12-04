@@ -5,5 +5,6 @@ Cafe stop is a website designed to cultivate a sense of community and connection
 Invites you to embark on a culinary adventure, discovering the art of breakfast and the essence of exceptional coffee.
 
 
+![Cafe Stop Website showing  on all devices types](docs/mockup.png)
 
 Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
