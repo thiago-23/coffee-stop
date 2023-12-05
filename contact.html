@@ -1,133 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Meta tags for search engines  -->
-    <meta name="description" content="A coffee stop locations with a contact form">
-    <meta name="keywords" content="Coffee Stop, location, get in touch, conatct, kildare, Ireland">
+    <meta
+      name="description"
+      content="A coffee stop locations with a contact form"
+    />
+    <meta
+      name="keywords"
+      content="Coffee Stop, location, get in touch, conatct, kildare, Ireland"
+    />
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/images/iconmonstr-coffee-5.svg">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/iconmonstr-coffee-5.svg"
+    />
     <!-- Title -->
     <title>Contact - Café Stop</title>
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Header -->
     <header>
-        <a href="index.html">
-            <h1 id="logo">Café Stop</h1>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html" class="active">Contact Us</a></li>
-            </ul>
-        </nav>
+      <a href="index.html">
+        <h1 id="logo">Café Stop</h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main Content -->
     <main>
-        <section id="form-section">
+      <section id="form-section">
+        <div>
+          <form
+            id="contact-form"
+            method="POST"
+            action="https://formdump.codeinstitute.net"
+          >
+            <h2><i class="fa-solid fa-comments"></i> What's on your mind?</h2>
+            <!-- Inputs form -->
+            <label for="first_name">First Name</label>
+            <input
+              type="text"
+              name="first_name"
+              id="first_name"
+              class="text-input"
+              placeholder="Enter your first name"
+              required
+            />
+            <br />
+            <label for="last_name">Last Name</label>
+            <input
+              type="text"
+              name="last_name"
+              id="last_name"
+              class="text-input"
+              placeholder="Enter your last name"
+              required
+            />
+            <br />
+            <label for="email_address">Email Address</label>
+            <input
+              type="email"
+              name="email_address"
+              id="email_address"
+              class="text-input"
+              placeholder="Enter your email address"
+              required
+            />
+            <br />
+            <!-- Buttons  -->
+            <div class="radio-buttons">
+              <div>
+                <label for="reservation">Reservation</label>
+                <input
+                  type="radio"
+                  name="contact_request"
+                  id="reservation"
+                  value="reservation"
+                  required
+                  checked
+                />
+              </div>
+              <div>
+                <label for="cancelation">Cancelation</label>
+                <input
+                  type="radio"
+                  name="contact_request"
+                  id="cancelation"
+                  value="cancelation"
+                  required
+                />
+              </div>
+              <div>
+                <label for="enquiry">Enquiry</label>
+                <input
+                  type="radio"
+                  name="contact_request"
+                  id="enquiry"
+                  value="enquiry"
+                  required
+                />
+              </div>
+            </div>
+            <br />
             <div>
-                <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
-                    <h2><i class="fa-solid fa-comments"></i> What's on your mind?</h2>
-                    <!-- Inputs form -->
-                    <label for="first_name">First Name</label>
-                    <input type="text" name="first_name" id="first_name" class="text-input" placeholder="Enter your first name" required>
-                    <br>
-                    <label for="last_name">Last Name</label>
-                    <input type="text" name="last_name" id="last_name" class="text-input" placeholder="Enter your last name" required>
-                    <br>
-                    <label for="email_address">Email Address</label>
-                    <input type="email" name="email_address" id="email_address" class="text-input"
-                        placeholder="Enter your email address" required>
-                    <br>
-                    <!-- Buttons  -->
-                    <div class="radio-buttons">
-                        <div>
-                            <label for="reservation">Reservation</label>
-                            <input type="radio" name="contact_request" id="reservation" value="reservation" required checked>
-                        </div>
-                        <div>
-                            <label for="cancelation">Cancelation</label>
-                            <input type="radio" name="contact_request" id="cancelation" value="cancelation" required>
-                        </div>
-                        <div>
-                            <label for="enquiry">Enquiry</label>
-                            <input type="radio" name="contact_request" id="enquiry" value="enquiry" required>
-                        </div>
-                    </div>
-                    <br>
-                    <div>
-                        <label for="subject">What can we help?</label>
-                        <textarea id="subject" placeholder="Write your query here" name="subject" cols="80" rows="5" required></textarea>
-                        <br>
-                    </div>
-                    <div>
-                        <button type="submit" class="join-button">Submit</button>
-                    </div>
-                </form>
+              <label for="subject">What can we help?</label>
+              <textarea
+                id="subject"
+                placeholder="Write your query here"
+                name="subject"
+                cols="80"
+                rows="5"
+                required
+              ></textarea>
+              <br />
             </div>
-            <div class="contact-us">
-                <div class="contact-row">
-                    <div class="contact-col">
-                        <div>
-                            <i class="fa-solid fa-location-dot"></i>
-                                <h5>Unit 5, Monread Road Co.Kildare</h5>
-                            <i class="fa-solid fa-phone"></i>
-                                <h5>045 486958</h5>
-                            <i class="fa-regular fa-envelope"></i>
-                                <h5>info@cafestop.ie</h5>
-                        </div>
-                    </div>
-                </div>
+            <div>
+              <button type="submit" class="join-button">Submit</button>
             </div>
-            <div class="locations">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19110.980528194053!2d-6.679782377138312!3d53.22013321676891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867789670a91b9f%3A0xa00c7a9973172b0!2sNaas%2C%20Co.%20Kildare!5e0!3m2!1spt-PT!2sie!4v1701430213613!5m2!1spt-PT!2sie"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </form>
+        </div>
+        <div class="contact-us">
+          <div class="contact-row">
+            <div class="contact-col">
+              <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <h4>Unit 5, Monread Road Co.Kildare</h4>
+                <i class="fa-solid fa-phone"></i>
+                <h4>045 486958</h4>
+                <i class="fa-regular fa-envelope"></i>
+                <h4>info@cafestop.ie</h4>
+              </div>
             </div>
-        </section>
-        <!-- Back to top button -->
-        <a href="#" class="back-to-top-button">&#8593;</a>
+          </div>
+        </div>
+        <div class="locations">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19110.980528194053!2d-6.679782377138312!3d53.22013321676891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4867789670a91b9f%3A0xa00c7a9973172b0!2sNaas%2C%20Co.%20Kildare!5e0!3m2!1spt-PT!2sie!4v1701430213613!5m2!1spt-PT!2sie"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+      <!-- Back to top button -->
+      <a href="#" class="back-to-top-button">&#8593;</a>
     </main>
 
     <!-- footer -->
     <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
+      <ul class="social-networks">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Youtube page (opens in a new tab)"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
 
-
     <!-- Font awesome Kit -->
-    <script src="https://kit.fontawesome.com/0acb66484e.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/0acb66484e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
