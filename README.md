@@ -14,13 +14,19 @@ Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
 # Table of contents
 
 - [User Experience (UX)](#User-Experience-UX)
-    - [User Stories](#user-stories)
+  - [User Stories](#user-stories)
   
 - [Technologies Used](#Technologies-Used)
-  - [Languages Used](#Languages-Used)
+  - [Languages Used](#languages-used)
   
 - [Design](#Design)
 
+-[Deployment and Local Developent](#Deployment-and-Local-Developent)
+ - [Deployment](#Deployment)
+- [LocalDevelopment](#Local-Development)
+- [How to Fork](#How-to-Fork)
+- [How to Clone](#How-to-Clone)
+  
 ---
 
 ## User Experience (UX)
