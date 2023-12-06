@@ -27,7 +27,7 @@ Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
 
 * [Testing](#testing)
 
-* [Deployment and Local Developent](#deployment-and-local-development)
+* [Deployment and Local Developent](#deployment-and-local-developent)
   * [Deployment](#deployment)
 
   * [LocalDevelopment](#local-development)
@@ -142,7 +142,9 @@ Lighthouse within the Chrome Developer Tools are used to test the performance, a
 
 ---
 
-## Deployment
+## Deployment and Local Developent
+
+### Deployment
 
 Github Pages were used to deploy the live website. The instructions to achieve this are below:
 
