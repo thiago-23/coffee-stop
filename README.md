@@ -96,7 +96,7 @@ Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
 
 The website features a user-friendly interface with four pages(home page, menu page, gallery page and conatct page).
 
-* All pages has a logo(top left), a navigation bar and footer.
+* All pages has a logo(top left), a navigation bar, footer and a back to top button located at (button right with a yellow color).
 
 * Navigation bar that is responsive to all screen sizes.
   
@@ -153,7 +153,7 @@ W3C Markup Validator were used to valitade each page of the project to ensure th
 * Gallery Page
 ![Gallery Page HTML](testing/html-validator-gallery.png)
 
-* Conatct Page
+* Contact Page
 ![Contact Page HTML](testing/html-validator-contact.png)
 
 ### W3C CSS Validator
@@ -224,10 +224,22 @@ To clone the P01-Allotment-gardens repository:
 * [IStock](https://www.istockphoto.com/)
 * [Font awesome](https://fontawesome.com/icons)
 * [Iconmonstr](https://iconmonstr.com/?s=coffee)
+* [Coolors](https://coolors.co/)
+* [You Tube Flexbox Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i3FXJSUfmsNOx8E7u6UuhG)
+* [Google Fonts](https://fonts.google.com/)
+* [Mockup Screenshot Generator](https://ui.dev/amiresponsive)
 
-## Reference Material 
+## Reference Material
 
 * [Love Running Walkthrough project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/8.1-testing-and-validation)
 * [Love Running Walkthrough project readme template](https://github.com/Code-Institute-Solutions/readme-template)
+* [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [W3 School](https://www.w3schools.com/)
+* [Stackoverflow - Back to top button](https://stackoverflow.com/search?q=back+to+top+button)
 
 ---
+
+## Acknowledgements
+
+* [Derek McAuley](https://github.com/derekmcauley7), My code institute Mentor who support and clarify all my queries.
+* Tutor Assistance at Code institute when I had an issue with codeanywhere.
