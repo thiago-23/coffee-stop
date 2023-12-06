@@ -33,7 +33,7 @@ Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
 
 * [Testing](#testing)
 
-* [Deployment and Local Developent](#deployment-and-local-developent)
+* [Deployment and Local Development](#deployment-and-local-development)
   * [Deployment](#deployment)
 
   * [LocalDevelopment](#local-development)
@@ -96,7 +96,7 @@ Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
 
 ### Colour Scheme
 
-![Elegant pallete](docs/color-palettes.png)
+![Elegant Palette](docs/color-palettes.png)
 
 ### Typography
 
@@ -116,17 +116,17 @@ The icons were taken from [Font awesome](https://fontawesome.com/icons)
 
 ### Existing Features
 
-The website features a user-friendly interface with four pages(home page, menu page, gallery page and conatct page).
+The website features a user-friendly interface with four pages(home page, menu page, gallery page and contact page).
 
-* All pages has a logo(top left), a navigation bar, footer and a back to top button located at (button right with a yellow color).
+* All pages have a logo(top left), a navigation bar, footer and a back to top button located at (button right with a yellow color).
 
 * Navigation bar that is responsive to all screen sizes.
 
 #### Navigation Bar
 
-* Header Navigation Bar allow users to easily navigate from any of the pages.
-* The navigation bar toggler appears with small screens such as mobile allowing users easily navigate from all pages.
-* Header Logo at the left. Clicking on the logo will return the user to home page as expected.
+* Header Navigation Bar allows users to easily navigate from any of the pages.
+* The navigation bar toggler appears with small screens such as mobile allowing users to easily navigate from all pages.
+* Header Logo at the left. Clicking on the logo will return the user to the home page as expected.
 
 ![Nav Bar](docs/nav-bar.png)
 
@@ -150,7 +150,7 @@ The website features a user-friendly interface with four pages(home page, menu p
 
 * About Us:
   * Display a message telling the users about Café Stop.
-  * Containing 3 pictures about café stop team, who we are and opening hours.
+  * Containing 3 pictures about the café stop team, who we are and opening hours.
   
 ![About Section](docs/about-us.png)
 
@@ -171,7 +171,7 @@ The website features a user-friendly interface with four pages(home page, menu p
 
 #### Gallery Page
 
-* The gallery section has a select of attractive images of Café Stop dishes.
+* The gallery section has a selection of attractive images of Café Stop dishes.
 * The gallery page as all pages is responsive taking one row for smaller devices, facilitating the view of each picture.
 
 ![Gallery Page](docs/gallery.png)
@@ -179,19 +179,19 @@ The website features a user-friendly interface with four pages(home page, menu p
 #### Contact
 
 * Contact Form
-  * The contact for consist with four mandatory input fields where the user can enter their (first name, last name, email address and a text message). It also contains a radio button with three options (reservation, cancelation and enquiry) and a submit button where it will redirect the user another page displays the information entered.
+  * The contact consists of four mandatory input fields where the user can enter their (first name, last name, email address and a text message). It also contains a radio button with three options (reservation, cancelation and enquiry) and a submit button where it will redirect the user to another page displaying the information entered.
   * The form contains a validation, so the users can not submit a form without filling up all the input fields.
 
 ![Contact Form](docs/contact-form.png)
 
 * Contact Location
-  * This section is to illustrate café stop location including a Goggle maps.
+  * This section is to illustrate café stop locations including Google maps.
 
 ![Contact Location](docs/location-map.png)
 
 ### Features Implementations
 
-* Create a signup page, where the users can sign in and receive information about update menu and future events.
+* Create a signup page, where the users can sign in and receive information about the update menu and future events.
 * Add some Animation images.
 * Improve the contact page with a better form and map.
 * Improve Menu page, including an animation video and an attractive menu.
@@ -202,10 +202,13 @@ The website features a user-friendly interface with four pages(home page, menu p
 * The website is accessible friendly by using:
   * Semantic HTML.
   * Sufficient color contrast throughout the site.
-  * Using a sans serif font, recommended for web design to easily reading.
+  * Using a sans serif font, recommended for web design to be easily read.
   * Adding alt attribute to images in case the image is not loading.
   * Provide information for screen readers where the icon is used without text.
 
+The accessibility was confirmed by running it through lighthouse in devtools.
+
+![Café Stop accessibility](testing/accessibility.png)
 
 ---
 
@@ -213,7 +216,7 @@ The website features a user-friendly interface with four pages(home page, menu p
 
 ### W3C Validator
 
-W3C Markup Validator were used to valitade each page of the project to ensure there no syntax errors.
+W3C Markup Validator were used to validate each page of the project to ensure there were no syntax errors.
 
 [W3C Validator](https://validator.w3.org/)
 
@@ -255,7 +258,7 @@ Lighthouse within the Chrome Developer Tools are used to test the performance, a
 
 ---
 
-## Deployment and Local Developent
+## Deployment and Local Development
 
 ### Deployment
 
@@ -290,6 +293,34 @@ To clone the P01-Allotment-gardens repository:
 
 ---
 
+## Solved Bugs
+
+After asking friends and family to test the deploy Cafe Stop Project, it was identified the following bugs and fixed action were taken.
+
+1. The gallery page:
+   * It was not responsive with small devices.
+   * Fixed by changing the width to 80% and was able to make it responsive.
+2. Contact-row information:
+   * It was not centred on laptop devices with 1440p.
+   * Fixed by creating a media query and adding .contact-col div into it.
+3. Contact form:
+   * It was working with some empty fields.
+   * Fixed by add required to input field and it is now mandatory.
+4. Submit button background color:
+   * It brought the performance to a low score.
+   * Fixed by changing the text to a dark color and it improved the score.
+5. Location details:
+   * Was not displayed as a list on small devices.
+   * Fixed by changed to display: inline on media query max-width:700px.
+6. Textarea:
+   * Placeholder text on contact form was close to the text box edge.
+   * Fixed by adding some padding and it gave more space around the textarea form.
+7. Menu section:
+   * The menu page was close to the footer without space.
+   * Fixed by adding a padding-button.
+
+---
+
 ## Credits
 
 ## Media
@@ -314,5 +345,5 @@ To clone the P01-Allotment-gardens repository:
 
 ## Acknowledgements
 
-* [Derek McAuley](https://github.com/derekmcauley7), My code institute Mentor who support and clarify all my queries.
+* [Derek McAuley](https://github.com/derekmcauley7), My code institute Mentor who supports and clarifies all my queries.
 * Tutor Assistance at Code institute when I had an issue with codeanywhere.
