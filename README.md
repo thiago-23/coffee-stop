@@ -102,11 +102,13 @@ The website features a user-friendly interface with four pages(home page, menu p
   
 ![Nav Bar](docs/nav-bar.png)
 
+#### Footer
+
 * A footer with accessible links to social media.
 
 ![Footer](docs/footer.png)
 
-* Home Page
+#### Home Page
 
 ![Hero Image](docs/hero-image.png)
 
