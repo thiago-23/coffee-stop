@@ -23,6 +23,7 @@ Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
 * [Design](#design)
 
 * [Features](#features)
+  * [Existing Features](#existing-features)
 
 * [Deployment and Local Developent](#deployment-and-local-development)
 * [Deployment](#deployment)
@@ -87,6 +88,8 @@ Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
 ---
 
 ## Features
+
+### Existing Features
 
 ---
 
