@@ -28,6 +28,8 @@ Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
 
 * [Features](#features)
   * [Existing Features](#existing-features)
+  * [Features Implementations](#features-implementations)
+  * [Accessibility](#accessibility)
 
 * [Testing](#testing)
 
@@ -194,6 +196,15 @@ The website features a user-friendly interface with four pages(home page, menu p
 * Improve the contact page with a better form and map.
 * Improve Menu page, including an animation video and an attractive menu.
 * FAQ page - It gives users answers to their common questions.
+
+### Accessibility
+
+* The website is accessible friendly by using:
+  * Semantic HTML.
+  * Sufficient color contrast throughout the site.
+  * Using a sans serif font, recommended for web design to easily reading.
+  * Adding alt attribute to images in case the image is not loading.
+  * Provide information for screen readers where the icon is used without text.
 
 
 ---
