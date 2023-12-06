@@ -93,6 +93,28 @@ Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
 
 ---
 
+## Testing
+
+### W3C Validator
+
+W3C Markup Validator were used to valitade each page of the project to ensure there no syntax errors.
+
+[W3C Validator](https://validator.w3.org/)
+
+* Index Page
+![Index Page HTML](testing/html-validator-index.png)
+
+* Menu Page
+![Menu Page HTML](testing/html-validator-menu.png)
+
+* Gallery Page
+![Gallery Page HTML](testing/html-validator-gallery.png)
+
+* Conatct Page
+![Contact Page HTML](testing/html-validator-contact.png)
+
+---
+
 ## Deployment and Local Development
 
 ### Deployment
