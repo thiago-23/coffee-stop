@@ -94,6 +94,46 @@ Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
 
 ### Existing Features
 
+The website features a user-friendly interface with four pages(home page, menu page, gallery page and conatct page).
+
+* All pages has a logo(top left), a navigation bar and footer.
+
+* Navigation bar that is responsive to all screen sizes.
+  
+![Nav Bar](docs/nav-bar.png)
+
+* A footer with accessible links to social media.
+
+![Footer](docs/footer.png)
+
+* Home Page
+
+![Hero Image](docs/hero-image.png)
+
+* About Us Section
+
+![About Section](docs/about-us.png)
+
+* Testimonials
+
+![Testimonials](docs/feedback.png)
+
+* Menu Page
+
+![Menu Page](docs/menu-list.png)
+
+* Gallery Page
+
+![Gallery Page](docs/gallery.png)
+
+* Contact Form
+
+![Contact Form](docs/contact-form.png)
+
+* Contact Location
+
+![Contact Location](docs/location-map.png)
+
 ---
 
 ## Testing
