@@ -21,6 +21,10 @@ Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
   * [Languages Used](#languages-used)
   
 * [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Icons](#icons)
 
 * [Features](#features)
   * [Existing Features](#existing-features)
@@ -88,6 +92,22 @@ Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
 
 ## Design
 
+### Colour Scheme
+
+![Elegant pallete](docs/color-palettes.png)
+
+### Typography
+
+The fonts Lato and Robot used on this project were imported from [Google Fonts](https://fonts.google.com/).
+
+### Imagery
+
+The images used within the site were taken from [IStock](https://www.istockphoto.com/) and Google.
+
+### Icons
+
+The icons were taken from [Font awesome](https://fontawesome.com/icons)
+
 ---
 
 ## Features
@@ -139,19 +159,31 @@ The website features a user-friendly interface with four pages(home page, menu p
 
 ![Testimonials](docs/feedback.png)
 
-* Menu Page
+#### Menu Page
+
+* Menu page contains a briefly message with the intention of catch the customer attention with:
+  * An attractive message about the Café Stop menu.
+  * A menu list with a select option of food and coffee with prices.
 
 ![Menu Page](docs/menu-list.png)
 
-* Gallery Page
+#### Gallery Page
+
+* The gallery section has a select of attractive images of Café Stop dishes.
+* The gallery page as all pages is responsive taking one row for smaller devices, facilitating the view of each picture.
 
 ![Gallery Page](docs/gallery.png)
 
+#### Contact
+
 * Contact Form
+  * The contact for consist with four mandatory input fields where the user can enter their (first name, last name, email address and a text message). It also contains a radio button with three options (reservation, cancelation and enquiry) and a submit button where it will redirect the user another page displays the information entered.
+  * The form contains a validation, so the users can not submit a form without filling up all the input fields.
 
 ![Contact Form](docs/contact-form.png)
 
 * Contact Location
+  * This section is to illustrate café stop location including a Goggle maps.
 
 ![Contact Location](docs/location-map.png)
 
