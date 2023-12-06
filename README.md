@@ -25,6 +25,8 @@ Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
 * [Features](#features)
   * [Existing Features](#existing-features)
 
+* [Testing](#testing)
+
 * [Deployment and Local Developent](#deployment-and-local-development)
 * [Deployment](#deployment)
 * [LocalDevelopment](#local-development)
@@ -112,6 +114,30 @@ W3C Markup Validator were used to valitade each page of the project to ensure th
 
 * Conatct Page
 ![Contact Page HTML](testing/html-validator-contact.png)
+
+### W3C CSS Validator
+
+CSS - No syntax errors were found using Jigsaw css validator.
+
+[Jigsaw Vaidator](https://jigsaw.w3.org/css-validator/)
+
+* CSS Page
+![CSS Page](testing/css-validator.png)
+
+---
+
+### Lighthouse
+
+Lighthouse within the Chrome Developer Tools are used to test the performance, accessibility, best practices and SEO of the  Cafe Stop website.
+
+* Index Page
+![Index Page](testing/lighthouse-index.png)
+* Menu Page
+![Menu Page](testing/lighthouse-menu.png)
+* Gallery Page
+![Gallery Page](testing/lighthouse-galery.png)
+* Contact Page
+![Contact Page](testing/lighthouse-index.png)
 
 ---
 
