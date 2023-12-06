@@ -99,24 +99,43 @@ The website features a user-friendly interface with four pages(home page, menu p
 * All pages has a logo(top left), a navigation bar, footer and a back to top button located at (button right with a yellow color).
 
 * Navigation bar that is responsive to all screen sizes.
-  
+
+#### Navigation Bar
+
+* Header Navigation Bar allow users to easily navigate from any of the pages.
+* The navigation bar toggler appears with small screens such as mobile allowing users easily navigate from all pages.
+* Header Logo at the left. Clicking on the logo will return the user to home page as expected.
+
 ![Nav Bar](docs/nav-bar.png)
 
 #### Footer
 
 * A footer with accessible links to social media.
+* Contains social media icons, by clicking on each icon it will redirect the user to a new tab social media page.
 
 ![Footer](docs/footer.png)
 
 #### Home Page
 
+* The Home page consists with 3 sections:
+  * Hero image:
+    * Display a coffee image with a message display on the top right.
+    * Having a coffee picture has the purpose to grab and give a positive impact to the user.
+
 ![Hero Image](docs/hero-image.png)
 
-* About Us Section
+#### About Us Section
 
+* About Us:
+  * Display a message telling the users about Café Stop.
+  * Containing 3 pictures about café stop team, who we are and opening hours.
+  
 ![About Section](docs/about-us.png)
 
-* Testimonials
+#### Testimonials
+
+  1. Testimonials
+       * This section includes 2 customers testimonials with their experience visiting Café Stop.
 
 ![Testimonials](docs/feedback.png)
 
