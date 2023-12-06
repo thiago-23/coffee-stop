@@ -187,6 +187,15 @@ The website features a user-friendly interface with four pages(home page, menu p
 
 ![Contact Location](docs/location-map.png)
 
+### Features Implementations
+
+* Create a signup page, where the users can sign in and receive information about update menu and future events.
+* Add some Animation images.
+* Improve the contact page with a better form and map.
+* Improve Menu page, including an animation video and an attractive menu.
+* FAQ page - It gives users answers to their common questions.
+
+
 ---
 
 ## Testing
