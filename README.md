@@ -28,10 +28,11 @@ Link to the live site here: <https://thiago-23.github.io/coffee-stop/>
 * [Testing](#testing)
 
 * [Deployment and Local Developent](#deployment-and-local-development)
-* [Deployment](#deployment)
-* [LocalDevelopment](#local-development)
-* [How to Fork](#how-to-fork)
-* [How to Clone](#how-to-clone)
+  * [Deployment](#deployment)
+
+  * [LocalDevelopment](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
   
 ---
 
@@ -119,7 +120,7 @@ W3C Markup Validator were used to valitade each page of the project to ensure th
 
 CSS - No syntax errors were found using Jigsaw css validator.
 
-[Jigsaw Vaidator](https://jigsaw.w3.org/css-validator/)
+[Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 
 * CSS Page
 ![CSS Page](testing/css-validator.png)
@@ -141,9 +142,7 @@ Lighthouse within the Chrome Developer Tools are used to test the performance, a
 
 ---
 
-## Deployment and Local Development
-
-### Deployment
+## Deployment
 
 Github Pages were used to deploy the live website. The instructions to achieve this are below:
 
@@ -173,5 +172,20 @@ To clone the P01-Allotment-gardens repository:
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+---
+
+## Credits
+
+## Media
+
+* [IStock](https://www.istockphoto.com/)
+* [Font awesome](https://fontawesome.com/icons)
+* [Iconmonstr](https://iconmonstr.com/?s=coffee)
+
+## Reference Material 
+
+* [Love Running Walkthrough project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/8.1-testing-and-validation)
+* [Love Running Walkthrough project readme template](https://github.com/Code-Institute-Solutions/readme-template)
 
 ---
